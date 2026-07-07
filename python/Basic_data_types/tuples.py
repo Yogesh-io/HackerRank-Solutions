@@ -1,0 +1,5 @@
+inputs = int(input())
+elements = map(int, input().split())
+tuple1=tuple(elements)
+h = hash(tuple1)
+print(h)
