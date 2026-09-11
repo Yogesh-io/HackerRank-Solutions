@@ -1,0 +1,7 @@
+from itertools import groupby
+
+s = input()
+
+compressed = [(len(list(group)), int(key)) for key, group in groupby(s)]
+
+print(*compressed)
